@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F9A85BEF-90DF-1D4F-26B6-6CDBE6715E98">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 16:13:10 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

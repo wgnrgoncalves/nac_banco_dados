@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE8A3B1A-4DBF-677A-7AC0-E78E9CBD84A2" name="curso">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 18:10:54 UTC</createdTime>
+<generatorID>A3E27B73-6241-2B38-402D-A752BA182EAD</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="4BEFD2FD-C54A-BF09-14DA-FF7F92203A37">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 18:10:54 UTC</createdTime>
+<generatorID>E7D96FC6-1535-B747-C165-1072C81A8CCE</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_curso" id="5B65C0CB-00C8-9DDA-79F3-71E9779FBE0C">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 18:10:54 UTC</createdTime>
+<generatorID>5C46CAEC-4C72-E66C-4325-AE3A43355817</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58E8A3B0-6DDE-3B2E-17D0-7149ADD03243" name="curso_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 18:10:54 UTC</createdTime>
+<generatorID>654975F2-63F0-80D3-485D-4C91809765B9</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BEFD2FD-C54A-BF09-14DA-FF7F92203A37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

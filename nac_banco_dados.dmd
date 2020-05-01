@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nac_banco_dados" id="67E57FDC-2F7C-CA70-6839-4015D3FE4DB5" version="3.5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 16:13:10 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>67E57FDC-2F7C-CA70-6839-4015D3FE4DB5</designId>
+</OSDM_Design>

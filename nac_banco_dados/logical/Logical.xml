@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DA428E91-BA5E-D7B6-E587-C9F8D5D9811B" mainViewID="0BAD078F-5BB4-004D-790B-BB61D79B7B51">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-01 16:13:10 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
