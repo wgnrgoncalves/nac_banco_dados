@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EED22E9-CAD6-3BCE-9D39-E6061D0422DF" containerWithKeyObject="AE8A3B1A-4DBF-677A-7AC0-E78E9CBD84A2" localFKIndex="F1D88244-89F7-9701-88A7-F6A3C876D5F1" name="grade_curricular_nivel_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>66F6115B-894B-8E51-B741-A4F6D6525804</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>nivel</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A649F56C-21AD-63ED-6357-2B4AA1FDE3D6</referredTableID>
+<keyObject>AB4B76AF-9233-FD21-2943-738CD5B8CE82</keyObject>
+<referredKeyID>AB4B76AF-9233-FD21-2943-738CD5B8CE82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nivel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

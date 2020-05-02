@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4F3EB60-9246-DB09-093D-899637442156" name="matricula">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:49:21 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_matricula" id="FE8412C5-900B-4FBE-3CA1-111FFC1D15C7">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:49:32 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="4F8C7407-7FB9-9158-34E8-0F57DD76F71E">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:49:48 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="955C7D0D-BCD9-1844-4CF2-6F876B6BF212">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:50:21 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turma" id="1E547977-F108-4FCA-3A17-4FAF08C3D430">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:27:40 UTC</createdTime>
+<generatorID>B161C50A-7F77-B322-BED1-30A298A82776</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>246FD157-DEDB-7BE5-565C-B1141479FEEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="1831D672-DFFD-0481-A006-44B0C4D0945C">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:51:14 UTC</createdTime>
+<generatorID>F3CEE41F-BDE1-CB4D-DA3D-990D2FFA703F</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>15890FB0-968D-1E5B-5140-964281B62F10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4ACC619-2323-B6B1-11B6-251704F5395C" name="matricula PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:49:46 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE8412C5-900B-4FBE-3CA1-111FFC1D15C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

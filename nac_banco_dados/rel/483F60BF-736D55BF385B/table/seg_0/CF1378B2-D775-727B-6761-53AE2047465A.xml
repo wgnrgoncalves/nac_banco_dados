@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF1378B2-D775-727B-6761-53AE2047465A" name="curso">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>FCE50CD6-97E6-8385-4E2B-576AC1AD3704</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_curso" id="C41CC8FE-8CBC-F892-5614-D6554ED7F032">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>793F877C-A607-097F-3B04-7046FDE4DBE4</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_curso" id="82C78716-1C90-457D-78ED-D8FE474FB2FE">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>E6BA5FAB-7C94-9A78-3801-06CCA247E197</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_curso" id="1713E531-FF84-70A0-DA59-1C8175AC36A5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>3A6A18F8-E345-743A-4051-1B3EC0BAA299</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46FF2A0A-A741-D0E4-336D-86ECEDD937D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instuicao_id_instituicao" id="C58581EA-73A5-E931-DDE6-E31FE8A98D77">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>2BB0D8A5-F878-D495-249B-CED6B7EE0F0F</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="389DBC67-F24D-FAC1-83FB-8E99D7711FD1" referredColumn="D2B46077-4CDA-4E5E-AA50-C07B8B2616D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96E9C218-D759-7E6E-4303-1F9658EFA084" name="cursov1_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>0218C450-29D8-38EF-FC2F-C45BCBEA8695</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C41CC8FE-8CBC-F892-5614-D6554ED7F032"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9F07D95-B7C9-52EB-93D6-821F4709E1B4" name="cursov1_Instuicao_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>8A55536F-FA7D-35E1-5E01-83AB385E81FB</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C58581EA-73A5-E931-DDE6-E31FE8A98D77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

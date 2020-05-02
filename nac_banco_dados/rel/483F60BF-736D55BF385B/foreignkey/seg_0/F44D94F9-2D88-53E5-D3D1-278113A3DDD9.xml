@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F44D94F9-2D88-53E5-D3D1-278113A3DDD9" containerWithKeyObject="BDFAB63D-3C7F-DD76-1E38-96CF0772E733" localFKIndex="4C986E6C-BF73-5135-E34E-18BA17235098" name="matricula_pessoa_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:57:53 UTC</createdTime>
+<generatorID>F3CEE41F-BDE1-CB4D-DA3D-990D2FFA703F</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>pessoa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1850E92C-3646-A525-2CD6-7DA4C227034F</referredTableID>
+<keyObject>A819A778-91AE-4B7D-5CB9-35C7B97C2A1E</keyObject>
+<referredKeyID>A819A778-91AE-4B7D-5CB9-35C7B97C2A1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pessoa1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

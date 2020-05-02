@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC8B09A-EB99-B89B-8DC6-8CB2F4171719" name="tipo_curso">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC8B09A-EB99-B89B-8DC6-8CB2F4171719" name="nivel">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 14:55:23 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>

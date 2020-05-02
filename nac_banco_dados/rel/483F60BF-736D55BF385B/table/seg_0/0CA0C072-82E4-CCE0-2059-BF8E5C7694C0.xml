@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CA0C072-82E4-CCE0-2059-BF8E5C7694C0" name="aluno">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>12E79A01-D13E-1B0A-3364-05729EFA32AD</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pessoa_pessoa_ID" id="46C4D5B1-9E65-FD56-15D4-45EF6E29408E">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_aluno" id="52279770-09C3-02D0-17E3-E9E71789CE88">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>130C6A28-53B9-78C5-56C0-99A9784C03E6</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_aluno" id="D01E0E32-F31D-F957-842D-B8197C6FA6A8">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>940E8070-0488-8E91-F651-467925A2F455</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="F27E7011-F6C9-0F36-2D0C-4DA8FC8DDC87">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>7D0C96AF-D54F-B8E4-7974-C29E40808C0B</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="98904980-4639-0374-18B2-D169F687C505">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>6F526221-EC2B-1A62-2B1E-C0769F1391DC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE385DEF-D967-6CBA-B155-E342B6884CD9" name="aluno_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="46C4D5B1-9E65-FD56-15D4-45EF6E29408E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B079846-065D-F756-3596-E8EC1AC41B4B" name="aluno_id_aluno_UN">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>1FB1E37D-F3B1-5DFF-1416-BE4FD2BB23D7</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52279770-09C3-02D0-17E3-E9E71789CE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

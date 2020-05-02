@@ -38,9 +38,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>14</dataTypeSize>
-<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nm_fantasia" id="D87D49DA-ECED-A83D-DDC3-AF83D278CD18">

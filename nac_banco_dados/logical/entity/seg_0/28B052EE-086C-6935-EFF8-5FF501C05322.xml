@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28B052EE-086C-6935-EFF8-5FF501C05322" name="pagamento">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:02:10 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pagamento" id="A1893F71-DC92-C363-9AF3-2B6E57E01CAD">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:02:18 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pagamento" id="752B84C2-0E72-EA0D-F213-C867B9F74F0E">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:02:41 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46FF2A0A-A741-D0E4-336D-86ECEDD937D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="CD9976CD-E9AD-B4CD-E25F-147E37223BC4">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:06:18 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pagamento" id="83D0011F-AF37-0B53-68E4-3B15E9F1A40D">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:02:51 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pago" id="813D3A29-87F0-4B43-073A-F9BBBA939B04">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:08:12 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_matricula" id="2F9C0394-DF87-1F96-6C21-882B85ECB27F">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:04:18 UTC</createdTime>
+<generatorID>0A4EEBF1-70B5-C302-8F80-191EAB83C6F4</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>FE8412C5-900B-4FBE-3CA1-111FFC1D15C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_pagamento" id="7AD656C9-8566-6DDE-B004-F63D949F7019">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:12:58 UTC</createdTime>
+<generatorID>ACC0D28D-4131-3DD2-6EA4-B92D6DB37DD3</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>0951D833-DE18-FED9-EAAB-DEC8859EFA01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8F3F0BEB-9A7E-8D11-6A31-AF8258E43686" name="pagamento PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 18:02:32 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1893F71-DC92-C363-9AF3-2B6E57E01CAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

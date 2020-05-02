@@ -49,9 +49,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>14</dataTypeSize>
-<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_fantasia" id="3F60E99C-2E3E-46C7-3C60-138B2C6EE146">
 <createdBy>g_o_n</createdBy>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_30" directorySegmentName="seg_0" id="39808EDA-206C-B57C-9444-3A0FF5AF95A5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:33:42 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<sourcePk>2BE1C2C3-1589-CAA6-6ECA-25EA4551FD59</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5CBA195-E94F-1601-685C-8850F37E2A8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC0D7DC2-15FA-73B0-1CC3-C5F23957C5B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

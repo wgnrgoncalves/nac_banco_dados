@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AA5C821-9EBE-ECEE-AE7A-3961CCE98D2E" name="pessoa">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:37:26 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pessoa" id="15890FB0-968D-1E5B-5140-964281B62F10">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:50:59 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9F9BD28B-3503-C3EE-FE72-91DF6D0CF953">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:38:30 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pessoa" id="7D7A384C-3479-9E02-CFFE-A599291E4281">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:37:59 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apelido" id="D3D6B5A4-E75C-476D-601F-3EC8B1B54BB1">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:38:06 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D7FEE452-AC42-89F6-CD2E-4ED6590D5297</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="0E89CCBF-250B-5952-9E7E-EDC5DF07C1D0">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:38:13 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5B663741-AC34-8B30-75B4-1E9BEBE8B355</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="FF6EF8DC-8D96-5CD9-361D-7EABE5DD31F4">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:40:42 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa1" id="7C49543D-C9B0-73A6-0704-18C101C9D5C6">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:51:57 UTC</createdTime>
+<generatorID>B1C03850-7599-63E5-EC0F-1580B0176B8B</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15890FB0-968D-1E5B-5140-964281B62F10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0FA7C6C-C88F-0111-9E65-8E6B3D67AC2A" name="pessoa PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:45:01 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15890FB0-968D-1E5B-5140-964281B62F10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

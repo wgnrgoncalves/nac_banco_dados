@@ -67,6 +67,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_instituicao" id="1F7FEBA4-2339-2158-DEF8-E16DCB3E81C0">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:18:31 UTC</createdTime>
+<generatorID>F7210DB3-3E10-2569-26BC-F89AB13227A8</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>C2DCD9B9-EE37-D313-5EB8-36F2B14A7053</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9A392505-478D-06F2-401A-5CDD8741A831" name="sala PK">

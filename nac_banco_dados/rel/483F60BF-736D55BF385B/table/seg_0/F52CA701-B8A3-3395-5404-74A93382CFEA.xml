@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F52CA701-B8A3-3395-5404-74A93382CFEA" name="periodo">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>C4979FA2-3754-46B6-82C6-D45033D54049</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_periodo" id="1D338C92-D311-DBFC-E3B0-A6A837645371">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>4F5118DC-82AE-35D9-E62C-B59AB3350439</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_periodo" id="965331BE-4584-B378-839D-58C4E6EF562C">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>B4851BFC-3CAD-482F-5F62-F56DC308886B</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_inicio" id="3B2D7125-D064-6188-AB36-735507707586">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>6F872288-A775-883B-FB67-D838C685ACC2</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_fim" id="BCE0E62E-7965-11D3-B371-10F9CB0EF0A3">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>8725EDF1-2A37-6AC8-B37E-149C35E3EA51</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D8D8578-1EC8-76CE-DE8F-8A0B2015FEB9" name="periodo_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>349DDD16-DD9C-89A4-2E87-54D082F9F7D1</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D338C92-D311-DBFC-E3B0-A6A837645371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

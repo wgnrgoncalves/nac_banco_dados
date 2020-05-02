@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
@@ -74,8 +73,9 @@
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:33:01 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

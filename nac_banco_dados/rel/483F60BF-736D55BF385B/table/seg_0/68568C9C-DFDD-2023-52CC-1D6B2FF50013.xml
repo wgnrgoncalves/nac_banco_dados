@@ -109,6 +109,21 @@
 <colAssociation fkAssociation="6B367DF1-19CF-4E23-A803-B380A9032C26" referredColumn="D2B46077-4CDA-4E5E-AA50-C07B8B2616D1"/>
 </associations>
 </Column>
+<Column name="aluno_id_aluno" id="37B56149-CC10-D6A5-2A9B-5CD6F03218E5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>7038AF29-1515-DBA6-AE3C-FFF0AC18E572</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0508AB9-1D28-CEA8-3D41-0F2991DDBA59" referredColumn="52279770-09C3-02D0-17E3-E9E71789CE88"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D473C4DA-8E2B-97DA-25AC-7D020E4EC2F5" name="endereco_PK">
@@ -132,6 +147,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4DA1D2A4-8C3B-A592-74AC-0EFB66535B50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BDBA3E1-90CC-4058-127E-52D9C147708A" name="endereco_aluno_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>2B5182DE-DD11-8DCF-9F13-4034A3B5FE52</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37B56149-CC10-D6A5-2A9B-5CD6F03218E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

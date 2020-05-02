@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="304BA1AB-ECBF-F3FE-EA9D-460FC813D889" name="Relation_25">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="materia_id_materia" id="DAF08435-672A-B5AB-FD34-4EE344D8B1E2">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1FDFED0-4CEC-EFB4-BFDA-539155A0278B" referredColumn="F56E2BA0-0B2C-7E37-A52E-A5235391444D"/>
+</associations>
+</Column>
+<Column name="professor_id_professor" id="8F443AA8-66B6-D174-CE35-11B0A5088B27">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB7504FD-1D6D-CB9E-00D1-D75D54531986" referredColumn="C0A5053B-9099-FB3C-6835-B9276D9A5D50"/>
+</associations>
+</Column>
+<Column name="professor_id_pessoa" id="E95B705B-4176-52F2-B16F-9CCB32F78CB0">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:57:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AC6BFB9-8B76-A61A-EC39-BDD32F5D1A47" referredColumn="3EFDBD64-26CD-789D-4583-F3635A89A510"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D790EC26-D8DC-616A-AEEB-4D837F7F6CB8" name="Relation_25_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF08435-672A-B5AB-FD34-4EE344D8B1E2"/>
+<colUsage columnID="8F443AA8-66B6-D174-CE35-11B0A5088B27"/>
+<colUsage columnID="E95B705B-4176-52F2-B16F-9CCB32F78CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06188DAF-AF37-D691-BA6F-36518C1DF641" name="Relation_25_materia_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF08435-672A-B5AB-FD34-4EE344D8B1E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD4E9C4-D267-C257-6588-08E598DA9DE4" name="Relation_25_professor_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F443AA8-66B6-D174-CE35-11B0A5088B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5085E534-7592-6C0F-388D-85D25CF3BE59" name="Relation_25_professor_FKv1">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:57:53 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E95B705B-4176-52F2-B16F-9CCB32F78CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

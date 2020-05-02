@@ -53,14 +53,84 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_materia" id="5D9DCD03-2D06-3592-A7DD-77D0B793DD73">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:44:42 UTC</createdTime>
+<generatorID>C538A7E1-9263-D6BD-6DB2-9A7575853604</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>8B3FA9E3-7022-643E-8520-535F724FB66C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turma" id="424EFFC6-922C-EBE0-1BB9-5F7930F53BEE">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:44:53 UTC</createdTime>
+<generatorID>63E74534-DB72-147A-F6E4-B33C0922B31F</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>246FD157-DEDB-7BE5-565C-B1141479FEEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sala" id="38D4A0A8-6AC3-381C-0B62-6CA0C40E3743">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:45:04 UTC</createdTime>
+<generatorID>FA9EA701-F81A-3EBB-55AB-43DB19CEB970</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>FA620A1D-F235-EDD7-E1A1-BB5B5DE79F7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_matricula" id="8CBA9BA3-8882-5210-0013-60FC768B40E7">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 16:51:50 UTC</createdTime>
+<generatorID>0D64B401-2B59-1136-42F7-C744DC0823D2</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>FE8412C5-900B-4FBE-3CA1-111FFC1D15C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_professor" id="8F82B336-208B-1CEC-1F1E-471F8B281267">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:48:58 UTC</createdTime>
+<generatorID>39808EDA-206C-B57C-9444-3A0FF5AF95A5</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+</engineerTo>
+<referedAttribute>66BB7387-B285-5275-99A4-004B61B2E14B</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8C0F831E-C8A7-6328-E6D4-6B4E78C660C0" name="aula PK">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:41:18 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

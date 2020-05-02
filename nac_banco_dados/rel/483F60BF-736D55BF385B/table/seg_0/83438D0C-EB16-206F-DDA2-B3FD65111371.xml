@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83438D0C-EB16-206F-DDA2-B3FD65111371" name="Relation_12">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grade_curricular_id_grade" id="4BFA883F-9DC3-4F4D-B84B-4B34723ACCDF">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC11B0DD-DB91-379B-1B5F-9B5BA021C4A1" referredColumn="4BEFD2FD-C54A-BF09-14DA-FF7F92203A37"/>
+</associations>
+</Column>
+<Column name="cursov1_id_curso" id="FC82609C-EB66-331B-130A-E0B0ECA3C60D">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBC3894A-ED74-7A93-E00F-FA0115A0BC5F" referredColumn="C41CC8FE-8CBC-F892-5614-D6554ED7F032"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0F43647-41FF-8F52-4D11-13BB40EEFFE8" name="Relation_12_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFA883F-9DC3-4F4D-B84B-4B34723ACCDF"/>
+<colUsage columnID="FC82609C-EB66-331B-130A-E0B0ECA3C60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832EC27A-622B-179D-F629-611E35B8AF6F" name="Relation_12_grade_curricular_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>B1EA7C82-F2E0-C9CC-54E8-3D0CC5049DFA</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BFA883F-9DC3-4F4D-B84B-4B34723ACCDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="942A6E53-8017-CE3D-7937-7D222D30128E" name="Relation_12_cursov1_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-02 17:41:53 UTC</createdTime>
+<generatorID>B1EA7C82-F2E0-C9CC-54E8-3D0CC5049DFA</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC82609C-EB66-331B-130A-E0B0ECA3C60D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
