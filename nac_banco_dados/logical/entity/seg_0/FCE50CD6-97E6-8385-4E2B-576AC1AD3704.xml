@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E27B73-6241-2B38-402D-A752BA182EAD" name="grade_curricular">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCE50CD6-97E6-8385-4E2B-576AC1AD3704" name="curso">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:29 UTC</createdTime>
+<createdTime>2020-05-02 16:14:54 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_grade" id="E7D96FC6-1535-B747-C165-1072C81A8CCE">
+<Attribute name="id_curso" id="793F877C-A607-097F-3B04-7046FDE4DBE4">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:35 UTC</createdTime>
+<createdTime>2020-05-02 16:15:00 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qtd_horas" id="5C46CAEC-4C72-E66C-4325-AE3A43355817">
+<Attribute name="nm_curso" id="E6BA5FAB-7C94-9A78-3801-06CCA247E197">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:51 UTC</createdTime>
+<createdTime>2020-05-02 16:15:08 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -40,29 +40,28 @@
 <domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_nivel" id="D34472F6-D646-EF67-25C7-591A250BB745">
+<Attribute name="vl_curso" id="3A6A18F8-E345-743A-4051-1B3EC0BAA299">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:08 UTC</createdTime>
-<generatorID>66F6115B-894B-8E51-B741-A4F6D6525804</generatorID>
+<createdTime>2020-05-02 16:16:36 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<referedAttribute>F5AB13C9-B3B4-27D8-563C-D1781EF149FC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46FF2A0A-A741-D0E4-336D-86ECEDD937D1</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_materia" id="8EAFE022-5747-CC28-5100-C6AFD37BF9A5">
+<Attribute name="id_instituicao" id="2BB0D8A5-F878-D495-249B-CED6B7EE0F0F">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:35 UTC</createdTime>
-<generatorID>C8DE693D-7B19-685E-8102-F13D5FC4A97A</generatorID>
+<createdTime>2020-05-02 16:15:45 UTC</createdTime>
+<generatorID>8A55536F-FA7D-35E1-5E01-83AB385E81FB</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<referedAttribute>8B3FA9E3-7022-643E-8520-535F724FB66C</referedAttribute>
+<referedAttribute>C2DCD9B9-EE37-D313-5EB8-36F2B14A7053</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -70,17 +69,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="654975F2-63F0-80D3-485D-4C91809765B9" name="curso PK">
+<identifier id="0218C450-29D8-38EF-FC2F-C45BCBEA8695" name="curso PK">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:49 UTC</createdTime>
+<createdTime>2020-05-02 16:15:31 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E7D96FC6-1535-B747-C165-1072C81A8CCE</attributeRef>
+<attributeRef>793F877C-A607-097F-3B04-7046FDE4DBE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E27B73-6241-2B38-402D-A752BA182EAD" name="grade_curricular">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC0D7DC2-15FA-73B0-1CC3-C5F23957C5B9" name="aula">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:29 UTC</createdTime>
+<createdTime>2020-05-02 16:39:30 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_grade" id="E7D96FC6-1535-B747-C165-1072C81A8CCE">
+<Attribute name="id_aula" id="3F3C6F16-7A3C-6558-54F1-94C3B7E01B9E">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:35 UTC</createdTime>
+<createdTime>2020-05-02 16:40:56 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -27,60 +27,44 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qtd_horas" id="5C46CAEC-4C72-E66C-4325-AE3A43355817">
+<Attribute name="dt_inicio" id="3ACDEF97-8292-B03E-4807-F62726ED1A63">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:51 UTC</createdTime>
+<createdTime>2020-05-02 16:41:19 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_nivel" id="D34472F6-D646-EF67-25C7-591A250BB745">
+<Attribute name="dt_fim" id="C6D77352-8F19-9AC6-21ED-78D94D177D68">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:08 UTC</createdTime>
-<generatorID>66F6115B-894B-8E51-B741-A4F6D6525804</generatorID>
+<createdTime>2020-05-02 16:41:49 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<referedAttribute>F5AB13C9-B3B4-27D8-563C-D1781EF149FC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_materia" id="8EAFE022-5747-CC28-5100-C6AFD37BF9A5">
-<createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:35 UTC</createdTime>
-<generatorID>C8DE693D-7B19-685E-8102-F13D5FC4A97A</generatorID>
-<ownerDesignName>nac_banco_dados</ownerDesignName>
-<engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
-</engineerTo>
-<referedAttribute>8B3FA9E3-7022-643E-8520-535F724FB66C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="654975F2-63F0-80D3-485D-4C91809765B9" name="curso PK">
+<identifier id="8C0F831E-C8A7-6328-E6D4-6B4E78C660C0" name="aula PK">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:49 UTC</createdTime>
+<createdTime>2020-05-02 16:41:18 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E7D96FC6-1535-B747-C165-1072C81A8CCE</attributeRef>
+<attributeRef>3F3C6F16-7A3C-6558-54F1-94C3B7E01B9E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

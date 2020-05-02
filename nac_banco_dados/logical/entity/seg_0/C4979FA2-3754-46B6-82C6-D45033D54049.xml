@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E27B73-6241-2B38-402D-A752BA182EAD" name="grade_curricular">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4979FA2-3754-46B6-82C6-D45033D54049" name="periodo">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:29 UTC</createdTime>
+<createdTime>2020-05-02 16:33:28 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_grade" id="E7D96FC6-1535-B747-C165-1072C81A8CCE">
+<Attribute name="id_periodo" id="4F5118DC-82AE-35D9-E62C-B59AB3350439">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:35 UTC</createdTime>
+<createdTime>2020-05-02 16:35:56 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qtd_horas" id="5C46CAEC-4C72-E66C-4325-AE3A43355817">
+<Attribute name="nm_periodo" id="B4851BFC-3CAD-482F-5F62-F56DC308886B">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:51 UTC</createdTime>
+<createdTime>2020-05-02 16:36:06 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
@@ -40,47 +40,44 @@
 <domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_nivel" id="D34472F6-D646-EF67-25C7-591A250BB745">
+<Attribute name="hr_inicio" id="6F872288-A775-883B-FB67-D838C685ACC2">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:08 UTC</createdTime>
-<generatorID>66F6115B-894B-8E51-B741-A4F6D6525804</generatorID>
+<createdTime>2020-05-02 16:36:18 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<referedAttribute>F5AB13C9-B3B4-27D8-563C-D1781EF149FC</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_materia" id="8EAFE022-5747-CC28-5100-C6AFD37BF9A5">
+<Attribute name="hr_fim" id="8725EDF1-2A37-6AC8-B37E-149C35E3EA51">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:17:35 UTC</createdTime>
-<generatorID>C8DE693D-7B19-685E-8102-F13D5FC4A97A</generatorID>
+<createdTime>2020-05-02 16:37:25 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
-<referedAttribute>8B3FA9E3-7022-643E-8520-535F724FB66C</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="654975F2-63F0-80D3-485D-4C91809765B9" name="curso PK">
+<identifier id="349DDD16-DD9C-89A4-2E87-54D082F9F7D1" name="periodo PK">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-01 18:00:49 UTC</createdTime>
+<createdTime>2020-05-02 16:38:43 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E7D96FC6-1535-B747-C165-1072C81A8CCE</attributeRef>
+<attributeRef>4F5118DC-82AE-35D9-E62C-B59AB3350439</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
