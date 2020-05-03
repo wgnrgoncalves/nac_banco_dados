@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="384BC5E2-D4BF-2FB6-3171-5AAB0812D3B8" name="materia">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB3997A1-81AA-3C7A-B2EF-39517ECE445E" name="tp_cargo">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 14:53:35 UTC</createdTime>
+<createdTime>2020-05-03 18:18:39 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_materia" id="8B3FA9E3-7022-643E-8520-535F724FB66C">
+<Attribute name="id_tp_cargo" id="AEFD38BB-B81A-515D-99F3-793120EB4309">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 14:54:21 UTC</createdTime>
+<createdTime>2020-05-03 18:18:47 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
@@ -27,30 +27,30 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_materia" id="F1795DF8-4359-0B2F-B85F-DBAF3AD5D1F7">
+<Attribute name="nm_tp_cargo" id="B958FE04-1CF5-137A-FE15-FA59B4CB285B">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 14:54:31 UTC</createdTime>
+<createdTime>2020-05-03 18:19:01 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<domain>D7FEE452-AC42-89F6-CD2E-4ED6590D5297</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="21B6F2C0-428C-1ED9-DBCF-4533DA084F6C" name="materia PK">
+<identifier id="F11E4572-FFA4-6D72-9925-60FAE1B056C8" name="tp_funcionario PK">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 14:54:57 UTC</createdTime>
+<createdTime>2020-05-03 18:19:00 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8B3FA9E3-7022-643E-8520-535F724FB66C</attributeRef>
+<attributeRef>AEFD38BB-B81A-515D-99F3-793120EB4309</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A517F137-04A1-F6C4-A44A-E5CF69E95B81" name="FKArc_1">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>0A6044DC-35C3-88ED-735C-8305645FE6F8</table>
+<fkeys>
+<fkeyID>3E99F353-2BED-3338-3692-A30643EDF3C7</fkeyID>
+<fkeyID>B6C62DD6-DD58-1876-F680-BB16359888FD</fkeyID>
+</fkeys>
+</FKArc>

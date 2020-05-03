@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8417CB24-D39F-B2EC-C073-B8DEF5311FC0" name="grade">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>A3E27B73-6241-2B38-402D-A752BA182EAD</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grade" id="0F170004-FEEA-29AD-7022-B3958C77A06D">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>E7D96FC6-1535-B747-C165-1072C81A8CCE</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_horas" id="0F77DA55-C4D2-656C-0F98-F1D44983F279">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>5C46CAEC-4C72-E66C-4325-AE3A43355817</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_id_nivel" id="51A0E6D5-6FBE-FA35-B127-7256C90031AF">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>D34472F6-D646-EF67-25C7-591A250BB745</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69F6169A-8F85-FA24-B34E-C397B7D56057" referredColumn="57EED8C8-C67D-7549-AF00-C9D666108B8F"/>
+</associations>
+</Column>
+<Column name="materia_id_materia" id="FFE2CDFC-5798-9DBA-1861-8EC51F63F0D5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>8EAFE022-5747-CC28-5100-C6AFD37BF9A5</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE4CC9C-2F95-8DAD-D5E1-44A9AAFD1416" referredColumn="A56CEF9D-0D48-4E1F-118C-1DFC87E7747B"/>
+</associations>
+</Column>
+<Column name="curso_id_curso" id="794462DD-EEAC-168E-6EE8-F5015AE09BA6">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>B386DA55-E680-5F53-34DC-AEA01837D6BF</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A215CFE-4E8E-FA92-55BA-06509EFBD52F" referredColumn="3CC03509-79BC-1911-9A14-DD54234C80F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73670D3C-43BF-F45C-4E0F-5AEA22E1C874" name="grade_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>654975F2-63F0-80D3-485D-4C91809765B9</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F170004-FEEA-29AD-7022-B3958C77A06D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A0B2CE1-C5CB-4A61-7934-ADF19D1627BC" name="grade_curso_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>AC13E400-D2D4-5B31-536F-0C473C61EDF5</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="794462DD-EEAC-168E-6EE8-F5015AE09BA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C93AAB3E-7A30-F395-D19A-E78156776135" name="grade_materia_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>C8DE693D-7B19-685E-8102-F13D5FC4A97A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFE2CDFC-5798-9DBA-1861-8EC51F63F0D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCA75294-C847-920A-2D9A-F22A5DB74C68" name="grade_nivel_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>66F6115B-894B-8E51-B741-A4F6D6525804</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A0E6D5-6FBE-FA35-B127-7256C90031AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93D67F25-CF8B-CB18-3ED8-76476BE695BB" containerWithKeyObject="808E2C6B-8109-6252-1710-965D4109B471" localFKIndex="40766FD0-6023-9646-6120-22A1E6FF57BD" name="presenciou_matricula_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>DC1E7271-9702-BC8C-5B58-3886B4A8EA43</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>matricula</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DA68546-9735-D9BA-BB6E-AD16FDF9C7E2</referredTableID>
+<keyObject>14FF911F-8EE7-F7B0-D473-C631EB4DE9F9</keyObject>
+<referredKeyID>14FF911F-8EE7-F7B0-D473-C631EB4DE9F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

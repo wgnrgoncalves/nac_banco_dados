@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A6044DC-35C3-88ED-735C-8305645FE6F8" name="funcionario">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>D5CBA195-E94F-1601-685C-8850F37E2A8B</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="1312B011-EF1C-CDBC-0659-25B17C6ED707">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>15890FB0-968D-1E5B-5140-964281B62F10</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A2EA354-558E-737D-045B-625CC89EF601" referredColumn="9634664C-4563-5FB1-BA1D-2980A42CCC0B"/>
+</associations>
+</Column>
+<Column name="dt_admissao" id="9A700736-4672-78DB-4889-3441D515974A">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>710C98C0-D30A-C97A-7386-9E49081C39D8</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_demissao" id="26D5268B-6E52-EF01-A771-DABFC87C7513">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>62CB0106-C488-0024-A840-1F0C53B433E4</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="6648AEEC-2A82-04C1-E8EC-2C159F31DFD9">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>A5E13FB2-263B-3939-732A-36205B07F1BF</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46FF2A0A-A741-D0E4-336D-86ECEDD937D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AB4742B-4A9E-9E65-A7F7-818BB97316E8" name="funcionario_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>E0FA7C6C-C88F-0111-9E65-8E6B3D67AC2A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1312B011-EF1C-CDBC-0659-25B17C6ED707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9C48084-2E3B-41E3-9893-F3220A1B0C45" name="funcionario_pessoa_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>4691417B-01D9-202B-C568-3BA8DA765C84</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1312B011-EF1C-CDBC-0659-25B17C6ED707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

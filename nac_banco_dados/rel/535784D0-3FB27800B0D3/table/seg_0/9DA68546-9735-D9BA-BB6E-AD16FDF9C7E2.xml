@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DA68546-9735-D9BA-BB6E-AD16FDF9C7E2" name="matricula">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>A4F3EB60-9246-DB09-093D-899637442156</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_matricula" id="FB8A7900-F738-2BBF-81DA-4B6BFAD5DEF7">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>FE8412C5-900B-4FBE-3CA1-111FFC1D15C7</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="97290747-EE25-89FF-2637-B413A11DE79D">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>4F8C7407-7FB9-9158-34E8-0F57DD76F71E</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="E10AE688-FB97-EF71-CDBB-1D2490B61264">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>955C7D0D-BCD9-1844-4CF2-6F876B6BF212</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turma_id_turma" id="047A0782-A67D-14CA-EF8C-057DD5D7263E">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>1E547977-F108-4FCA-3A17-4FAF08C3D430</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A65837D-8DF0-99A0-2C60-5010649F999D" referredColumn="DF2A3486-14DB-5083-A238-536A77D87FE2"/>
+</associations>
+</Column>
+<Column name="pessoa_id_pessoa" id="BC96B8D8-CBB1-657F-F890-5C62C1D879C0">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>1831D672-DFFD-0481-A006-44B0C4D0945C</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD3B8605-8AF2-E71F-C6CD-0470FEDA37DC" referredColumn="9634664C-4563-5FB1-BA1D-2980A42CCC0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14FF911F-8EE7-F7B0-D473-C631EB4DE9F9" name="matricula_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>A4ACC619-2323-B6B1-11B6-251704F5395C</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB8A7900-F738-2BBF-81DA-4B6BFAD5DEF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B083C11D-E647-B7F2-A0B2-3E71DC00B975" name="matricula_turma_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>B161C50A-7F77-B322-BED1-30A298A82776</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="047A0782-A67D-14CA-EF8C-057DD5D7263E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741170F1-CF3B-CBF1-3A87-6CCC1662B52E" name="matricula_pessoa_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>F3CEE41F-BDE1-CB4D-DA3D-990D2FFA703F</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC96B8D8-CBB1-657F-F890-5C62C1D879C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

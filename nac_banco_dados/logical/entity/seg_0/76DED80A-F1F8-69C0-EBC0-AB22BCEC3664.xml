@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76DED80A-F1F8-69C0-EBC0-AB22BCEC3664" name="funcionario_pj">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:24:32 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D5CBA195-E94F-1601-685C-8850F37E2A8B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cnpj" id="C4A0074B-4720-13E2-1269-986542FC9828">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:24:58 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>21C3E9F2-D849-6911-308B-3DEE23C10144</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

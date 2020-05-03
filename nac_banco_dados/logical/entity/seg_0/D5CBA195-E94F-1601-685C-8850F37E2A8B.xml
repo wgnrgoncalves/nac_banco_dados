@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5CBA195-E94F-1601-685C-8850F37E2A8B" name="professor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5CBA195-E94F-1601-685C-8850F37E2A8B" name="funcionario">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:58:08 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -16,24 +16,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_professor" id="66BB7387-B285-5275-99A4-004B61B2E14B">
-<createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 17:48:48 UTC</createdTime>
-<ownerDesignName>nac_banco_dados</ownerDesignName>
-<engineerTo>
-<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="dt_admissao" id="710C98C0-D30A-C97A-7386-9E49081C39D8">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:58:37 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +33,7 @@
 <createdTime>2020-05-02 17:55:52 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,19 +41,31 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2BE1C2C3-1589-CAA6-6ECA-25EA4551FD59" name="professor PK">
+<Attribute name="salario" id="A5E13FB2-263B-3939-732A-36205B07F1BF">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 17:32:54 UTC</createdTime>
+<createdTime>2020-05-03 18:17:45 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
 </engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>66BB7387-B285-5275-99A4-004B61B2E14B</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>46FF2A0A-A741-D0E4-336D-86ECEDD937D1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tp_cargo" id="6203ADD9-1AF3-8367-7F9C-13021027D26E">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:36:22 UTC</createdTime>
+<generatorID>B2F1E500-6253-FDC5-4943-44EFD6820509</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+</engineerTo>
+<referedAttribute>AEFD38BB-B81A-515D-99F3-793120EB4309</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

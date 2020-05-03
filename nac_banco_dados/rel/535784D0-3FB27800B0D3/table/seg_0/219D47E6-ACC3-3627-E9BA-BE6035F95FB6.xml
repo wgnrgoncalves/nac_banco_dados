@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="219D47E6-ACC3-3627-E9BA-BE6035F95FB6" name="funcionario_pj">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>76DED80A-F1F8-69C0-EBC0-AB22BCEC3664</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="26E0D7E7-3183-6678-2A77-80FAD1DC234B">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>15890FB0-968D-1E5B-5140-964281B62F10</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6C62DD6-DD58-1876-F680-BB16359888FD" referredColumn="1312B011-EF1C-CDBC-0659-25B17C6ED707"/>
+</associations>
+</Column>
+<Column name="cnpj" id="BAE0AC63-75E6-3D18-1772-CD7A977EDD5C">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>C4A0074B-4720-13E2-1269-986542FC9828</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A1E337A-915E-ACD3-870E-9454B7A41075" name="funcionario_pj_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>E0FA7C6C-C88F-0111-9E65-8E6B3D67AC2A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E0D7E7-3183-6678-2A77-80FAD1DC234B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFD8DC10-3FCF-D968-C3AD-C4AE07D9F4BA" name="funcionario_pj_funcionario_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:35:13 UTC</createdTime>
+<generatorID>868A93C5-6910-9A14-760A-79122FAF0AA3</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26E0D7E7-3183-6678-2A77-80FAD1DC234B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
