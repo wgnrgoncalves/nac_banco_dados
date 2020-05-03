@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7F79C551-61F6-A681-A091-6A65C9886336" containerWithKeyObject="698B44D1-62B9-EEFD-B0C9-CE3CA0FC885F" localFKIndex="BBD92D03-F3FB-DE0E-3CF1-8EE2DDF774D7" name="sala_instituicao_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>F7210DB3-3E10-2569-26BC-F89AB13227A8</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>instituicao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A76B9573-03A1-7B32-EB15-62AE9BB74E6B</referredTableID>
+<keyObject>CDB14777-15D1-D0DC-C113-EDCFAE68D6C9</keyObject>
+<referredKeyID>CDB14777-15D1-D0DC-C113-EDCFAE68D6C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_instituicao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

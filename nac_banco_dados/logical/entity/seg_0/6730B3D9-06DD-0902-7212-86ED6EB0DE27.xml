@@ -4,7 +4,7 @@
 <createdTime>2020-05-02 16:32:00 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-05-02 16:32:22 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-05-02 16:33:04 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,7 +45,7 @@
 <generatorID>C84ACAB2-ABAD-F97C-E74A-77C525D4F4F5</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <referedAttribute>793F877C-A607-097F-3B04-7046FDE4DBE4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +59,7 @@
 <generatorID>FA1A79B2-BFB2-410E-DC97-E247B37F661A</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <referedAttribute>4F5118DC-82AE-35D9-E62C-B59AB3350439</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,9 +73,8 @@
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:33:01 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

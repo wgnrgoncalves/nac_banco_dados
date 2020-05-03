@@ -4,7 +4,7 @@
 <createdTime>2020-05-02 16:58:08 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,19 +21,19 @@
 <createdTime>2020-05-02 17:48:48 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_adimissao" id="710C98C0-D30A-C97A-7386-9E49081C39D8">
+<Attribute name="dt_admissao" id="710C98C0-D30A-C97A-7386-9E49081C39D8">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:58:37 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,10 +45,12 @@
 <createdTime>2020-05-02 17:55:52 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -58,7 +60,7 @@
 <createdTime>2020-05-02 17:32:54 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

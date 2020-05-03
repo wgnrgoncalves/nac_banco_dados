@@ -4,12 +4,12 @@
 <createdTime>2020-05-02 17:51:57 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="577385FB-CDAC-25B4-45C3-EE5B0A25AFC0" value="true"/>
 </engineerTo>
 <targetPk>E0FA7C6C-C88F-0111-9E65-8E6B3D67AC2A</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2AA5C821-9EBE-ECEE-AE7A-3961CCE98D2E</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

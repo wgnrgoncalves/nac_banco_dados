@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="AFB77893-7A96-548D-08F4-6F307C642ADC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leciona" directorySegmentName="seg_0" id="AFB77893-7A96-548D-08F4-6F307C642ADC">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:59:28 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="24754859-E0B3-CF73-A061-57D79368C0F9" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>

@@ -4,7 +4,7 @@
 <createdTime>2020-05-01 17:35:02 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-05-01 17:35:10 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-05-01 17:35:28 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,7 +44,7 @@
 <createdTime>2020-05-01 17:35:51 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,7 +57,7 @@
 <createdTime>2020-05-01 17:36:42 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -69,12 +69,13 @@
 <createdTime>2020-05-01 17:37:50 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>bairro</dataTypeSize>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
 <ownDataTypeParameters>bairro,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="uf" id="7F3F5B53-8E67-0AA8-2065-87759C973467">
@@ -82,7 +83,7 @@
 <createdTime>2020-05-01 17:39:25 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -95,7 +96,7 @@
 <createdTime>2020-05-01 17:40:05 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -108,7 +109,7 @@
 <generatorID>BFCFB8B9-00AC-6098-BFAB-DA84EB865356</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <referedAttribute>C2DCD9B9-EE37-D313-5EB8-36F2B14A7053</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -122,9 +123,8 @@
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-01 17:35:27 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

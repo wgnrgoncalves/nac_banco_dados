@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="698B44D1-62B9-EEFD-B0C9-CE3CA0FC885F" name="sala">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>01E369DF-E8B3-FB03-467A-EAD2AA29841D</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sala" id="8830E041-47FE-2649-D738-33DE058BDA8D">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>FA620A1D-F235-EDD7-E1A1-BB5B5DE79F7A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_sala" id="F53EF041-06C4-F903-3D21-6926366B360C">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>4B699FD9-AEC4-E814-FF37-309AE9B55DB7</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_alunos" id="404B1FC4-EBD5-1858-7C6B-F07F0E248E78">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>4C3A9AA9-6914-9D40-DAAC-5ADA25144955</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_sala_id_tp_sala" id="5F9C2009-17F6-EE56-9DCC-A553D7EC9795">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>DD468DD3-41FC-4470-7FA6-DC0F4B9966B9</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC715D9E-C563-3A05-E843-E1563A7AA6AE" referredColumn="35278BE3-3869-22CD-4098-270A7C7D8671"/>
+</associations>
+</Column>
+<Column name="instituicao_id_instituicao" id="06FA9118-CEA7-D3E3-3B25-7ECA0C9D22AB">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>1F7FEBA4-2339-2158-DEF8-E16DCB3E81C0</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F79C551-61F6-A681-A091-6A65C9886336" referredColumn="652A3D63-C7EB-CFA9-8221-2D3A9EF6F374"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA87B689-0000-25AC-1B80-E77316B1CEA3" name="sala_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>9A392505-478D-06F2-401A-5CDD8741A831</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8830E041-47FE-2649-D738-33DE058BDA8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B33C9C2B-37BE-FD85-32DC-909CABCC0196" name="sala_tp_sala_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>255FD6BC-6693-403B-A69F-122A26D77A97</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F9C2009-17F6-EE56-9DCC-A553D7EC9795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBD92D03-F3FB-DE0E-3CF1-8EE2DDF774D7" name="sala_instituicao_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>F7210DB3-3E10-2569-26BC-F89AB13227A8</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06FA9118-CEA7-D3E3-3B25-7ECA0C9D22AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

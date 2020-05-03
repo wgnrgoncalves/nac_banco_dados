@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2D8947C-539C-8244-92CB-67CEF204C29B" containerWithKeyObject="16E29CE6-C44B-5803-D80A-18888CA4C5C8" localFKIndex="E45ABEFA-706E-170C-CDB2-2DFF9B0F0087" name="turma_periodo_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>FA1A79B2-BFB2-410E-DC97-E247B37F661A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>periodo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85070DB4-1DDB-3F7F-7AEE-7A1A6009C42D</referredTableID>
+<keyObject>CB096EB0-A1C5-2D21-33AD-386419F4B783</keyObject>
+<referredKeyID>CB096EB0-A1C5-2D21-33AD-386419F4B783</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_periodo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

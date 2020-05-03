@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuiv3" directorySegmentName="seg_0" id="8A55536F-FA7D-35E1-5E01-83AB385E81FB">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_curso_instituicao" directorySegmentName="seg_0" id="8A55536F-FA7D-35E1-5E01-83AB385E81FB">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:15:45 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <sourcePk>CDFBDD75-352D-164B-2592-4DF269A4AC40</sourcePk>
 <identifying>false</identifying>

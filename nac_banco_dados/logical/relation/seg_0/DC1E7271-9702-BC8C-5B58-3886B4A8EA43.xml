@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="presenciou" directorySegmentName="seg_0" id="DC1E7271-9702-BC8C-5B58-3886B4A8EA43">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 17:07:10 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<engineerTo>
+<item key="119000C1-665E-A6A7-EAFD-0D6B03113825" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FC0D7DC2-15FA-73B0-1CC3-C5F23957C5B9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4F3EB60-9246-DB09-093D-899637442156</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

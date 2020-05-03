@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC44866D-C52D-F304-C59A-0683AD1FAA6E" name="presenciou">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aula_id_aula" id="51A9B51A-E35C-9E04-6709-99703F8DDD54">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0450B21-FC9E-722F-3B49-9B97151658BA" referredColumn="34E88623-3125-FE18-90C8-92DF2C07F294"/>
+</associations>
+</Column>
+<Column name="matricula_id_matricula" id="8BC694D5-2360-E53B-D83B-6FE53764B018">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D1F7DCA-0696-A130-666B-2B3CDF931280" referredColumn="22BF9487-3AEC-50D2-60BB-4FB13BF01190"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18BEAEA0-FE35-264B-E641-6CB9FA5DCD0F" name="presenciou_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A9B51A-E35C-9E04-6709-99703F8DDD54"/>
+<colUsage columnID="8BC694D5-2360-E53B-D83B-6FE53764B018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48CE6B09-9116-4364-ADBA-41B9AC5E1BDA" name="presenciou_aula_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>DC1E7271-9702-BC8C-5B58-3886B4A8EA43</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A9B51A-E35C-9E04-6709-99703F8DDD54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F947080E-3A0A-B931-735F-58006181BB35" name="presenciou_matricula_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>DC1E7271-9702-BC8C-5B58-3886B4A8EA43</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC694D5-2360-E53B-D83B-6FE53764B018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

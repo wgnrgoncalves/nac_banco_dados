@@ -4,7 +4,7 @@
 <createdTime>2020-05-02 16:33:28 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2020-05-02 16:35:56 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2020-05-02 16:36:06 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,11 +44,12 @@
 <createdTime>2020-05-02 16:36:18 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3C2D8BF4-8D6B-77E0-D079-89122ED3A578</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="hr_fim" id="8725EDF1-2A37-6AC8-B37E-149C35E3EA51">
@@ -56,11 +57,12 @@
 <createdTime>2020-05-02 16:37:25 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3C2D8BF4-8D6B-77E0-D079-89122ED3A578</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -69,9 +71,8 @@
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:38:43 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="false"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

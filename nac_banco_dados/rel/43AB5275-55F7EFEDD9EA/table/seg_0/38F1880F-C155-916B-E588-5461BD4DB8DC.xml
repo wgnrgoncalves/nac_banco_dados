@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38F1880F-C155-916B-E588-5461BD4DB8DC" name="leciona">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="materia_id_materia" id="7932E093-E2DA-7803-CB16-F53226E7433F">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="410560D0-725A-7AE5-CF5D-E2D3F2A8735E" referredColumn="031A0C97-1001-7072-9BF2-6C1A1B354CD6"/>
+</associations>
+</Column>
+<Column name="professor_id_pessoa" id="ECD1B39B-7F91-6CCA-4707-F5B5E99AD937">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6572F43A-D130-ACCE-0743-663D15A38BB9" referredColumn="7EAABABE-EC17-9663-1803-ABE28647F744"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3272B25-91D4-A488-0426-F38D0270F74A" name="leciona_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7932E093-E2DA-7803-CB16-F53226E7433F"/>
+<colUsage columnID="ECD1B39B-7F91-6CCA-4707-F5B5E99AD937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A2FDFC3-8F35-4EF5-D016-8F6BD1FF82EF" name="leciona_materia_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7932E093-E2DA-7803-CB16-F53226E7433F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9771717E-EC87-9568-14FF-4017BBD012C3" name="leciona_professor_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD1B39B-7F91-6CCA-4707-F5B5E99AD937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

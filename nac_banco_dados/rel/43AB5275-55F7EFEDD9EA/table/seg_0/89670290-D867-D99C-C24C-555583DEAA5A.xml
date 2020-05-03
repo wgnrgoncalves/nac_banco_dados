@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89670290-D867-D99C-C24C-555583DEAA5A" name="contatos">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>5BFEED4F-4B6C-D7FD-B23E-F9059464C3A2</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contato" id="A7A3E9C1-A648-CAAA-7A17-1B350CE384B6">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>62B4C8F4-DEF1-A534-BFC6-886A3C3092CE</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="06E8EE10-7C3A-6C90-A2AB-5A9AC15B41AD">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>5F88D4DA-C48E-88F9-8B10-29EF5B9776F3</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instituicao_id_instituicao" id="7F3216F2-E030-FABB-8E5C-7B522C1ED342">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>1F448020-DC44-87CD-4B93-08E2A80CA2A2</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5466C20E-0964-C1BD-9743-817280797588" referredColumn="652A3D63-C7EB-CFA9-8221-2D3A9EF6F374"/>
+</associations>
+</Column>
+<Column name="tp_contato_id_tp_contato" id="DFB7A413-16EA-4E87-2BCB-21412BAEAF71">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>D78D8888-C86C-0487-DDDC-9A4FE521F8C2</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D2F1488-A687-C82F-7A34-35805FEBD394" referredColumn="2EFCD57E-275B-0DC9-D94D-B52775870CC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95DAC809-7CB5-CEAD-E411-9AB54A0D394A" name="contatos_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>DC38B29F-A255-58EE-30BE-1AC011602C5D</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7A3E9C1-A648-CAAA-7A17-1B350CE384B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9C66CCC-CF63-222C-E951-23EA43011D12" name="contatos_instituicao_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>048E6BA4-36E8-52D3-3D74-C62AE43FED39</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F3216F2-E030-FABB-8E5C-7B522C1ED342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F4D38C0-2C60-B712-F3C8-7402D5AC10DE" name="contatos_tp_contato_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>A6500B29-7CF3-B36B-C203-A10D2C665B2A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFB7A413-16EA-4E87-2BCB-21412BAEAF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0450B21-FC9E-722F-3B49-9B97151658BA" containerWithKeyObject="AC44866D-C52D-F304-C59A-0683AD1FAA6E" localFKIndex="48CE6B09-9116-4364-ADBA-41B9AC5E1BDA" name="presenciou_aula_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-03 18:02:02 UTC</createdTime>
+<generatorID>DC1E7271-9702-BC8C-5B58-3886B4A8EA43</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>aula</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B00551EB-0F0D-512B-3C91-D26D88098F43</referredTableID>
+<keyObject>00B19664-3E4B-145B-3A9E-B2A4C5DED72F</keyObject>
+<referredKeyID>00B19664-3E4B-145B-3A9E-B2A4C5DED72F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_aula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

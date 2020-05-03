@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02CE749F-051A-BA2A-C17E-EDFD415839FE" name="tipo_sala">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02CE749F-051A-BA2A-C17E-EDFD415839FE" name="tp_sala">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:19:51 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_tipo_sala" id="A3D327F0-F5D7-7655-61BD-A3F01C2F332E">
+<Attribute name="id_tp_sala" id="A3D327F0-F5D7-7655-61BD-A3F01C2F332E">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:19:57 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_tipo_sala" id="259D10DE-0D31-3BFB-490E-4D25F186FC9F">
+<Attribute name="nm_tp_sala" id="259D10DE-0D31-3BFB-490E-4D25F186FC9F">
 <createdBy>g_o_n</createdBy>
 <createdTime>2020-05-02 16:20:09 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -47,7 +47,7 @@
 <createdTime>2020-05-02 16:27:15 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="483F60BF-D004-870F-94A8-736D55BF385B" value="true"/>
+<item key="DE6A3D75-8B6F-7766-A116-686276A1FE34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
