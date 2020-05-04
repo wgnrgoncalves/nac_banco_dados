@@ -71,36 +71,50 @@ insert into turma(id_turma, nm_turma, curso_id_curso, periodo_id_periodo) values
 insert into turma(id_turma, nm_turma, curso_id_curso, periodo_id_periodo) values(7, 'Primeiro Bimestre', 1, 2);
 insert into turma(id_turma, nm_turma, curso_id_curso, periodo_id_periodo) values(8, 'Primeiro Bimestre', 1, 2);
 
+insert into tp_cargo(id_tp_cargo, nm_tp_cargo) values(1, 'PROFESSOR');
+insert into tp_cargo(id_tp_cargo, nm_tp_cargo) values(2, 'ATENDENTE');
+insert into tp_cargo(id_tp_cargo, nm_tp_cargo) values(3, 'Secretária');
+
+
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(1, 36318149090, 'Fulando 01', 'Professor Fulano 01', 'fulano01@email.com.br', to_date('01/05/1970', 'dd/mm/yyyy'), 'M', null);
-insert into professor(id_pessoa, id_professor, dt_admissao, dt_demissao) values(1, 1, to_date('01/05/2005', 'dd/mm/yyyy'), null);
+INSERT INTO FUNCIONARIO(ID_PESSOA, DT_ADMISSAO, DT_DEMISSAO, SALARIO, TP_CARGO_ID_TP_CARGO) VALUES(1, to_date('01/05/2005', 'dd/mm/yyyy'), NULL, 1000.50, 1);
+insert into funcionario_pj(id_pessoa, cnpj) values(1, 61125344000111);
+
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(2, 29094260093, 'Fulando 02', 'Professor Fulano 02', 'fulano02@email.com.br', to_date('01/05/1975', 'dd/mm/yyyy'), 'F', null);
-insert into professor(id_pessoa, id_professor, dt_admissao, dt_demissao) values(2, 2, to_date('01/05/2011', 'dd/mm/yyyy'), to_date('04/12/2015', 'dd/mm/yyyy'));
+INSERT INTO FUNCIONARIO(ID_PESSOA, DT_ADMISSAO, DT_DEMISSAO, SALARIO, TP_CARGO_ID_TP_CARGO) VALUES(2,to_date('01/05/2011', 'dd/mm/yyyy'), to_date('04/12/2015', 'dd/mm/yyyy'), 1020.32, 1);
+insert into funcionario_pj(id_pessoa, cnpj) values(2, 51282225000119);
+
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(3, 50248360060, 'Fulando 03', 'Professor Fulano 03', 'fulano03@email.com.br', to_date('01/05/1980', 'dd/mm/yyyy'), 'M', null);
-insert into professor(id_pessoa, id_professor, dt_admissao, dt_demissao) values(3, 3, to_date('01/01/2016', 'dd/mm/yyyy'), null);
+INSERT INTO FUNCIONARIO(ID_PESSOA, DT_ADMISSAO, DT_DEMISSAO, SALARIO, TP_CARGO_ID_TP_CARGO) VALUES(3, to_date('01/05/2016', 'dd/mm/yyyy'), NULL, 1000.50, 1);
+insert into funcionario_clt(id_pessoa, pis) values(2, '07365388359');
+
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(4, 26668036007, 'Responsavel Aluno', null, 'responsavel@email.com.br', to_date('01/05/1979', 'dd/mm/yyyy'), 'F', null);
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(5, null, 'Aluno 01', null, null, to_date('01/05/2009', 'dd/mm/yyyy'), 'M', 4);
 insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(6, null, 'Aluno 02', null, null, to_date('01/05/2012', 'dd/mm/yyyy'), 'F', 4);
 
+insert into pessoa(id_pessoa, cpf, nm_pessoa, apelido, email, dt_nascimento, sexo, pessoa_id_pessoa) values(7, 03090131277, 'Funcionario 02', null, 'funcionario@email.com.br', to_date('01/05/1985', 'dd/mm/yyyy'), 'F', null);
+INSERT INTO FUNCIONARIO(ID_PESSOA, DT_ADMISSAO, DT_DEMISSAO, SALARIO, TP_CARGO_ID_TP_CARGO) VALUES(7, to_date('01/05/2016', 'dd/mm/yyyy'), NULL, 1000.50, 2);
+insert into funcionario_clt(id_pessoa, pis) values(7, '75869492286');
+commit;
 
-
-insert into leciona(professor_id_pessoa, materia_id_materia) values(1, 1);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(1, 2);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(1, 3);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(2, 1);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(2, 2);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(3, 1);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(3, 2);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(3, 4);
-insert into leciona(professor_id_pessoa, materia_id_materia) values(3, 5);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(1, 1);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(1, 2);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(1, 3);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(2, 1);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(2, 2);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(3, 1);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(3, 2);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(3, 4);
+insert into leciona(FUNCIONARIO_ID_PESSOA, materia_id_materia) values(3, 5);
 
 
 insert into matricula(id_matricula, dt_inicio, dt_fim, turma_id_turma, pessoa_id_pessoa) values(1, to_date('01/02/2020', 'dd/mm/yyyy'), null, 1, 5);
 insert into matricula(id_matricula, dt_inicio, dt_fim, turma_id_turma, pessoa_id_pessoa) values(2, to_date('01/02/2020', 'dd/mm/yyyy'), null, 1, 6);
 
 
-insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, professor_id_professor) values(1, to_date('01/02/2020 08:05:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('01/02/2020 09:57:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
-insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, professor_id_professor) values(2, to_date('02/02/2020 08:00:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('02/02/2020 10:10:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
-insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, professor_id_professor) values(3, to_date('03/02/2020 08:15:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('03/02/2020 10:20:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
+insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, FUNCIONARIO_ID_PESSOA) values(1, to_date('01/02/2020 08:05:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('01/02/2020 09:57:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
+insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, FUNCIONARIO_ID_PESSOA) values(2, to_date('02/02/2020 08:00:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('02/02/2020 10:10:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
+insert into aula(id_aula, dt_inicio, dt_fim, materia_id_materia, turma_id_turma, sala_id_sala, FUNCIONARIO_ID_PESSOA) values(3, to_date('03/02/2020 08:15:00', 'dd/mm/yyyy HH24:mi:ss'), to_date('03/02/2020 10:20:00', 'dd/mm/yyyy HH24:mi:ss'), 2, 1, 1, 3);
 
 
 insert into presenciou(aula_id_aula, matricula_id_matricula) values(1,1);
