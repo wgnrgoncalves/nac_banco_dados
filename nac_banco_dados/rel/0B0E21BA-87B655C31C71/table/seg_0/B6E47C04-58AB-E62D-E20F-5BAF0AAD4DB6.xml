@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E47C04-58AB-E62D-E20F-5BAF0AAD4DB6" name="leciona">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="materia_id_materia" id="72EF364F-EB33-03E0-C8E7-AE0E53E564F5">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0553FAAB-B054-5544-8AA5-BFEFDB6B92F9" referredColumn="01BF7141-C1A2-0D06-EA5A-E6A85CEA1F20"/>
+</associations>
+</Column>
+<Column name="funcionario_id_pessoa" id="5B33D922-5D20-3C25-10B3-EE03FB01D50A">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB67591B-B6E2-6AB4-A946-FA79AFD6DF72" referredColumn="F20C26AE-3816-BACF-CE6C-F2B98E2C720B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCB928B2-C934-68BE-B227-5C69BF8CDC21" name="leciona_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72EF364F-EB33-03E0-C8E7-AE0E53E564F5"/>
+<colUsage columnID="5B33D922-5D20-3C25-10B3-EE03FB01D50A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39F8323D-7CEF-BBAF-8F4E-607D9D78EEF8" name="leciona_materia_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72EF364F-EB33-03E0-C8E7-AE0E53E564F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5055850D-D9A3-CF96-4845-74EFE63308CC" name="leciona_funcionario_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>AFB77893-7A96-548D-08F4-6F307C642ADC</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B33D922-5D20-3C25-10B3-EE03FB01D50A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

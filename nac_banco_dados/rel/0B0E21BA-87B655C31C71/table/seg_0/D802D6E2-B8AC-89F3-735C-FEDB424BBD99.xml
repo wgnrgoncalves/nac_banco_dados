@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D802D6E2-B8AC-89F3-735C-FEDB424BBD99" name="materia">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>384BC5E2-D4BF-2FB6-3171-5AAB0812D3B8</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_materia" id="01BF7141-C1A2-0D06-EA5A-E6A85CEA1F20">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>8B3FA9E3-7022-643E-8520-535F724FB66C</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_materia" id="606476CE-C86A-2ED5-A671-28B048A278D9">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>F1795DF8-4359-0B2F-B85F-DBAF3AD5D1F7</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="397E326F-1F1C-490D-EF46-1B74A714071C" name="materia_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>21B6F2C0-428C-1ED9-DBCF-4533DA084F6C</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01BF7141-C1A2-0D06-EA5A-E6A85CEA1F20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

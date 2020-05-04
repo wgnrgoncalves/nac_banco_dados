@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A32CD68F-B3D4-78C2-E90F-1EF011B7B2DE" containerWithKeyObject="FFE9E4FC-2F70-603F-A915-680B6AA860B5" localFKIndex="D1A49F8D-18D5-3618-1672-083EFD0A8B65" name="pagamento_tp_pagamento_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>ACC0D28D-4131-3DD2-6EA4-B92D6DB37DD3</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>tp_pagamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD28D111-8847-EF33-5239-851B650B07E6</referredTableID>
+<keyObject>DF35F1C5-55A2-CD6F-85DD-935C3FD7776C</keyObject>
+<referredKeyID>DF35F1C5-55A2-CD6F-85DD-935C3FD7776C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_tp_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2221322-6957-7D7E-AA6C-BA863C44775C" containerWithKeyObject="86973D34-78DF-0316-045B-D20B58BD1592" localFKIndex="723DCD97-F653-BBEC-B6C6-F0544DDCA4BB" name="turma_curso_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>C84ACAB2-ABAD-F97C-E74A-77C525D4F4F5</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>curso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E79CA408-E883-BCF7-DB21-AF911C99AAE9</referredTableID>
+<keyObject>DC2E9988-326B-8865-AF74-20C9B5F721ED</keyObject>
+<referredKeyID>DC2E9988-326B-8865-AF74-20C9B5F721ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_curso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

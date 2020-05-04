@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1D7C302C-7A8F-7374-56A1-7A1A245FD686" containerWithKeyObject="0D4E335D-587C-53D0-3212-1D9F0B4061BA" localFKIndex="45E4471E-62F8-4F3D-006D-6825F172BA09" name="funcionario_clt_funcionario_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>0D32F353-4297-2AD5-BCAF-C51130CBDD51</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<referredTableLongName>funcionario</referredTableLongName>
+<arc>18205471-8E7F-DC53-5ACB-00B7814F7214</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5DF0D66E-7C41-168D-760F-4124D08420A5</referredTableID>
+<keyObject>635BED00-B0FD-8D95-098B-417A9B1F198F</keyObject>
+<referredKeyID>635BED00-B0FD-8D95-098B-417A9B1F198F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

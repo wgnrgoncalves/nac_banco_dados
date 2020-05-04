@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86973D34-78DF-0316-045B-D20B58BD1592" name="turma">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>6730B3D9-06DD-0902-7212-86ED6EB0DE27</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_turma" id="6202C325-1669-9DA4-E866-1B764CB68E66">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>246FD157-DEDB-7BE5-565C-B1141479FEEB</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_turma" id="3CD6EDBE-1EF7-115C-1F94-A86273BDA9C9">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>347CDB5A-0592-C857-BDB1-8A6EB65FB6D7</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2D7E2495-1D69-9BE4-63F4-405943D9F780</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_id_curso" id="DCD8C2AB-BEC2-94C0-7F0C-B69D6A3DED03">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>5A13AFAE-746E-683F-99D4-67B63369CF90</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2221322-6957-7D7E-AA6C-BA863C44775C" referredColumn="6E2F9D99-ABA2-5167-E338-C960AD4AAEF5"/>
+</associations>
+</Column>
+<Column name="periodo_id_periodo" id="DB691EBC-6BA4-F09F-BA0B-97F71A1C4999">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>AEA590F3-7AB4-F381-25BF-7C9B6C632E35</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4702CD8F-078E-8E90-F209-05EACB6DC553" referredColumn="55CEBD45-94F9-3D2B-6BFD-00281DCE214B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCAA8D3C-5CF8-36D6-B490-966740A596DC" name="turma_PK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>004C1CED-294C-4A26-B194-5574B7BB41E9</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6202C325-1669-9DA4-E866-1B764CB68E66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="723DCD97-F653-BBEC-B6C6-F0544DDCA4BB" name="turma_curso_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>C84ACAB2-ABAD-F97C-E74A-77C525D4F4F5</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCD8C2AB-BEC2-94C0-7F0C-B69D6A3DED03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F5AA746-6B26-0891-14C7-77D15F54965E" name="turma_periodo_FK">
+<createdBy>g_o_n</createdBy>
+<createdTime>2020-05-04 19:53:27 UTC</createdTime>
+<generatorID>FA1A79B2-BFB2-410E-DC97-E247B37F661A</generatorID>
+<ownerDesignName>nac_banco_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB691EBC-6BA4-F09F-BA0B-97F71A1C4999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
