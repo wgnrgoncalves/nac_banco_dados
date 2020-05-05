@@ -4,7 +4,7 @@
 <createdTime>2020-05-02 17:37:26 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,21 +20,8 @@
 <createdTime>2020-05-02 17:50:59 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cpf" id="9F9BD28B-3503-C3EE-FE72-91DF6D0CF953">
-<createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 17:38:30 UTC</createdTime>
-<ownerDesignName>nac_banco_dados</ownerDesignName>
-<engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -45,7 +32,7 @@
 <createdTime>2020-05-02 17:37:59 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -57,7 +44,7 @@
 <createdTime>2020-05-02 17:38:06 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -70,7 +57,7 @@
 <createdTime>2020-05-02 17:38:13 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -83,7 +70,7 @@
 <createdTime>2020-05-02 17:40:42 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -95,7 +82,7 @@
 <createdTime>2020-05-03 15:42:00 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -109,7 +96,7 @@
 <generatorID>B1C03850-7599-63E5-EC0F-1580B0176B8B</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <referedAttribute>15890FB0-968D-1E5B-5140-964281B62F10</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,23 +111,11 @@
 <createdTime>2020-05-02 17:45:01 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
+<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>15890FB0-968D-1E5B-5140-964281B62F10</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="181BDE1E-38CE-7272-95BE-165978323994" name="Key_2">
-<createdBy>g_o_n</createdBy>
-<createdTime>2020-05-03 16:03:49 UTC</createdTime>
-<ownerDesignName>nac_banco_dados</ownerDesignName>
-<engineerTo>
-<item key="535784D0-0CCE-4A34-C112-3FB27800B0D3" value="true"/>
-</engineerTo>
-<newElementsIDs>9F9BD28B-3503-C3EE-FE72-91DF6D0CF953</newElementsIDs>
-<usedAttributes>
-<attributeRef>9F9BD28B-3503-C3EE-FE72-91DF6D0CF953</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

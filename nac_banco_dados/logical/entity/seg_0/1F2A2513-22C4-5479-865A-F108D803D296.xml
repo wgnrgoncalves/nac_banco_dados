@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4F3EB60-9246-DB09-093D-899637442156" name="matricula">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F2A2513-22C4-5479-865A-F108D803D296" name="Documento">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:49:21 UTC</createdTime>
+<createdTime>2020-05-05 01:15:59 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_matricula" id="FE8412C5-900B-4FBE-3CA1-111FFC1D15C7">
+<Attribute name="id_documento" id="69656D0D-A1D0-F169-98E9-0FC2821E07F8">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:49:32 UTC</createdTime>
+<createdTime>2020-05-05 01:16:10 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
@@ -27,54 +27,43 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_inicio" id="4F8C7407-7FB9-9158-34E8-0F57DD76F71E">
+<Attribute name="documento" id="ADF6384E-019C-CC74-963B-CD7559E9FFE9">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:49:48 UTC</createdTime>
-<ownerDesignName>nac_banco_dados</ownerDesignName>
-<engineerTo>
-<item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_fim" id="955C7D0D-BCD9-1844-4CF2-6F876B6BF212">
-<createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:50:21 UTC</createdTime>
+<createdTime>2020-05-05 01:16:30 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D7FEE452-AC42-89F6-CD2E-4ED6590D5297</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_turma" id="1E547977-F108-4FCA-3A17-4FAF08C3D430">
+<Attribute name="id_pessoa" id="F708EEB4-4FC9-42EA-CC22-BEB458AC7714">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 17:27:40 UTC</createdTime>
-<generatorID>B161C50A-7F77-B322-BED1-30A298A82776</generatorID>
+<createdTime>2020-05-05 01:17:19 UTC</createdTime>
+<generatorID>8E94C268-B0FE-39B8-5295-63ECFFC9F8AA</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
-<referedAttribute>246FD157-DEDB-7BE5-565C-B1141479FEEB</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>15890FB0-968D-1E5B-5140-964281B62F10</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pessoa" id="1831D672-DFFD-0481-A006-44B0C4D0945C">
+<Attribute name="id_tp_documento" id="0530AF06-1074-FEBC-7BA1-9F06C9FF5D28">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 17:51:14 UTC</createdTime>
-<generatorID>F3CEE41F-BDE1-CB4D-DA3D-990D2FFA703F</generatorID>
+<createdTime>2020-05-05 01:18:29 UTC</createdTime>
+<generatorID>561790D9-87D3-AE02-E855-1287203A2549</generatorID>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
-<referedAttribute>15890FB0-968D-1E5B-5140-964281B62F10</referedAttribute>
+<referedAttribute>CC026351-A057-E869-E619-ACFCA4DA06F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -82,16 +71,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A4ACC619-2323-B6B1-11B6-251704F5395C" name="matricula PK">
+<identifier id="B49CBA6C-0138-7D68-83E6-AD9B23B138AA" name="Documento PK">
 <createdBy>g_o_n</createdBy>
-<createdTime>2020-05-02 16:49:46 UTC</createdTime>
+<createdTime>2020-05-05 01:16:27 UTC</createdTime>
 <ownerDesignName>nac_banco_dados</ownerDesignName>
 <engineerTo>
 <item key="AB0F36BD-E3DE-7C6E-B074-DC2C832DE2BF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FE8412C5-900B-4FBE-3CA1-111FFC1D15C7</attributeRef>
+<attributeRef>69656D0D-A1D0-F169-98E9-0FC2821E07F8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
